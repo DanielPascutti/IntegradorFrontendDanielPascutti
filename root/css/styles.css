@@ -1,0 +1,467 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    
+}
+/*Logre comprender como manipular las cajas con margin
+pero no con vw y vh*/
+.menunav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    padding: 4vh 3vw;
+}
+.hamburguesa{
+    display: none;
+}
+.logo1{
+    display:flex;
+    justify-content: flex-start;
+    margin: 15px;
+    padding: 0 4vh;
+    height: 23px;
+    
+}
+
+
+.started{
+    background-color: #8B48BF;
+    color: white;
+    width: 134px;
+    height: 44px;
+   
+    border-radius:  20px;
+    border: 0
+}
+.navPPACC{ 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+   width: 500px;
+}
+.desplegable-menu{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    
+    list-style: none;
+    font-size: 13px;
+}
+.desplegable-menu li a{
+    display: flex;
+    justify-content: space-around;
+    width: 60px;
+    margin: 10px;
+     text-decoration: none;
+     color:black
+}
+.desplegable-menu li{
+  
+    margin-right: 10px;
+}
+.fa-bars {
+    display: none;
+    font-size: 2rem;
+    visibility: hidden;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+   
+    
+}
+.bring-every{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    margin-left: 100px;
+    font-size: 40px;
+}
+.bring{ 
+    display: flex;
+    max-width: 60%;
+    margin-bottom: 20px;
+    margin-right: 200px;
+}
+.P{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 550px 20px 0 ; 
+    font-size: 17px;
+    font-weight: 500;
+    
+}
+.ContenedorStarted2{
+    display: flex;
+    justify-content: flex-start;
+   
+}
+.picture{
+    align-items: center;
+    width: 50vw;
+    
+    display: flex;
+    justify-content: center
+}
+
+  
+
+
+
+.started2{
+    background-color: #8B48BF;
+    color: white;
+    width: 134px;
+    height: 44px;
+    margin:  25px 0;
+    border-radius:  20px;
+    border: 0
+}
+.Group1{
+      max-width: 100%;
+      max-height: 100%;
+}
+.contenedores3-4{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5vw;
+    margin-top: 100px;
+    width: 100%;
+}
+.contenedor3{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    
+}
+.Whats{
+    display: flex;
+    justify-content: flex-start;
+    max-width: 60%;
+    margin-bottom: 36px;
+    margin-right: 200px;
+    font-size: 36px;
+}
+.ManageProvides{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 350px 50px 0 ; 
+    font-size: 17px;
+    font-weight: 500;
+}
+.contenedor4{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+.B01{
+    display: flex;
+    align-items: center;
+    width: 41%;
+    margin-right: 300px;
+    height: 51px;
+}
+.TrackCompany{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 300px;
+    
+}
+.SeeHow p {
+    display:flex;
+    margin-left: 75px;
+    margin-right: 200px;
+    
+}.B02{
+    display: flex;
+    align-items: center;
+    width: 41%;
+    height: 51px;
+
+}
+.Advance{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 300px;
+}
+.See p {
+    display:flex;
+    margin-left: 75px;
+    margin-right: 200px;
+}
+.B03{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 51px;   
+}
+.Everything{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 300px;
+}
+.Stop p {
+    display:flex;
+    margin-left: 75px;
+    margin-right: 200px;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0 30px 0;
+    font-size: 25px;
+}  
+.contenedor5{
+    display: flex;
+    padding: 0 3vw;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #FAFAFA;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 460px;
+}
+.foto4x4{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 110px;
+    width: 70px;
+    height: 70px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    width: 71px 70px;
+    margin: 30px 0 30px 0;
+}
+.We{
+    display: flex;
+    justify-content: center;
+    color: #B9B9C1;
+    text-align: center;
+    width: 440px;
+    margin: 10px 10px 10px 7px;
+}
+.ContenedorStarted{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    width: 100%;
+}
+.started{
+    background-color: #8B48BF;
+}    
+    
+
+.footer{
+        display: flex;
+        padding: 0 0vw;
+        flex-direction: column;
+        margin-top: 50px;
+        width: 100%;
+        height: 224px;
+        
+    
+}
+.Started{
+    background-color: white;
+    color: #8B48BF;
+    width: 134px;
+    height: 44px;
+    margin:  10px 0 0 0;
+    border-radius:  20px;
+    border: 0
+}
+
+
+.footer-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8B48BF;
+    padding: 45px 120px;
+    height: 224px;
+    width: 100%;
+}
+.Simplify{
+    display: flex;
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    width: 30%;
+    
+
+}
+.footer-end{
+    display: flex;
+    background-color: #1E1E26;
+    height: 247px;
+    padding: 25px 7vw;
+    justify-content: space-between;
+
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.clear{
+    width: 145px;
+    margin-top: 30px;
+}
+
+.redessoc{
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px;
+    width: 153px;
+    
+}
+.HomeAcces{
+    display:flex;
+    align-items: flex-start;
+    width: 200px;
+    
+    
+    flex-grow: 60;
+    font-size: 16px;
+    justify-content: space-around;
+
+}
+.col1 p {
+    width: 150px;
+    height: 40px;
+    color: #dadada;
+    background-color: #1E1E26;
+}
+.col2 p {
+    width: 150px;
+    height: 40px;
+    color: #dadada;
+    background-color: #1E1E26;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+input {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    border-radius: 30px;
+    height: 35px;
+    width: 201px;
+    margin-right: 5px;
+}
+.gob {
+    background: #8B48BF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+    width: 60px;
+    height: 40px;
+    box-shadow: 0px 0px 0p;
+}
+.CR{
+    color: #8C8C94;
+    font-size: 12,5px;
+    line-height: 18px;
+}
+
+/*Ene esta parte gracias a los compañeros que ayudaron aprendí que se puede modificar la versión mobile sin modificar
+la versin descktop*/
+
+@media (max-width:480px){
+    body{
+        margin:0;
+        padding:0;
+    }
+    .bring{
+        margin:0;
+        padding:0;
+        width: 100%;
+        text-align: center;
+    }
+    .bring-every{
+        margin:0;
+        padding:0;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .desplegable-menu{
+        display: none;
+    }
+.main{
+    width: 100vw;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction: column-reverse;
+}
+.picture{
+    max-width: 100%;
+
+}
+
+
+.btn-header{
+    display: none;
+}
+.hamburguesa{
+    display: inline-block;
+}
+.img-group1{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.ContenedorStarted2{
+    margin:0;
+}
+.P{
+    margin: 0;
+    margin: 20px 20px 30px 20px;
+}
+.Whats{
+    max-width: 100%;
+    margin-bottom: 0;
+    margin-right: 0;
+    font-size: 36px;
+}
+.ManageProvides{
+    
+    margin: 0; 
+    font-size: 17px;
+    font-weight: 500;
+}
+.contenedor4{
+    display: flex;
+    flex-direction: column;
+}
+/*hasta aquí llegue hace 1,5 meses no tenia idea de desarrollo
+
+gracias por compartir sus conocimientos*/
+}
